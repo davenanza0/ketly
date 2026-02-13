@@ -142,6 +142,15 @@ body{
 }
 
 
+
+#declaration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 70px);
+}
+
+
 /* ========== GALERIA ========== */
 .gallery-section h2 { color: #b30000; margin-bottom:14px; }
 
@@ -260,6 +269,10 @@ body{
 
 .love-counter {
     text-align: center;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 70px);
 }
 
 .counter-box {
